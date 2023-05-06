@@ -65,7 +65,7 @@ public class PiCalculator {
                 BigDecimal denominator4 = BigDecimal.valueOf(8 * i + 6);
                 BigDecimal term = BigDecimal.ONE
                         .divide(denominator1, 20, RoundingMode.HALF_UP)
-                        .subtract(BigDecimal.ONE.divide(denominator2, 20                        , RoundingMode.HALF_UP)
+                        .subtract(BigDecimal.ONE.divide(denominator2, 20, RoundingMode.HALF_UP)
                                 .subtract(BigDecimal.ONE.divide(denominator3, 20, RoundingMode.HALF_UP))
                                 .add(BigDecimal.ONE.divide(denominator4, 20, RoundingMode.HALF_UP))
                                 .divide(BigDecimal.valueOf(16).pow(i), 20, RoundingMode.HALF_UP));
