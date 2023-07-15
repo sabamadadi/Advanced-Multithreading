@@ -1,5 +1,8 @@
 # Advanced Multithreading
 
+Seventh Assignment of Advanced Programming course at Shahid Beheshti University (Spring 2023)
+
+Score: 100 out of 100
 
 ## Introduction
 In this assignment, you are given three problems focused on various areas of multithreaded programming. Solve each exercise according to the provided guidelines.
